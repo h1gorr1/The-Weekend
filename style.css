@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+padding: 5rem; /*Tamanho do meu cabeçalho*/
+background-color: rgb(21, 101, 176);; /*Cor De Fundo*/
+}
+
+nav ul{ /*Minha lista não ordenada*/
+    display: flex; /*Estou colocando os itens lado a lado*/
+    justify-content: center; /*Justificando texto ao centro*/
+}
+
+nav ul li{ /*Acessando a lista não ordenada*/
+    margin-right: 20px; /*espaçamento a direita*/
+    font-size: 25px; /*Tamanho da fonte da linha*/
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white; 
+}
+
+nav ul li a:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+.meta1 { /*Chamei a classe da primeira imagem para estilização*/
+    background-image: url(imgs/Dawn\ Fm.png); /*Aque colocamos a imagem*/
+    padding: 20rem; /*Tamanho ma minha sessão*/
+    background-repeat: no-repeat; /*Colocar para a imagem não repetir*/
+background-size: cover; /*Preenchimento da imagem*/
+}
+
+.section-text{
+    background-color: black; /*Cor de fundo da minha sessão*/
+    color: white; /*Mudando a cor da letra*/
+    font-size: 25px; /*Tamanho da fonte*/
+    padding: 10rem; /*Tamanho da minha sessão*/
+    display: flex; /*Separamos os textos lado a lado*/
+    text-align: center; /*Alinhamos o texto ao centro*/
+}
+
+.meta2 { /*Chamei a classe da primeira imagem para estilização*/
+    background-image: url(imgs/StarBoy.png); /*Aque colocamos a imagem*/
+    padding: 20rem; /*Tamanho ma minha sessão*/
+    background-repeat: no-repeat; /*Colocar para a imagem não repetir*/
+background-size: cover; /*Preenchimento da imagem*/
+}
+
+footer{
+    padding: 3rem;
+    background-color: rgb(21, 101, 176);;
+}
