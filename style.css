@@ -7,7 +7,7 @@
 
 header{
 padding: 4rem; /*Tamanho do meu cabeçalho*/
-background-color: rgb(21, 101, 176);; /*Cor De Fundo*/
+background-color: #0006b7/*Cor De Fundo*/
 }
 
 nav ul{ /*Minha lista não ordenada*/
@@ -16,7 +16,7 @@ nav ul{ /*Minha lista não ordenada*/
 }
 
 nav ul li{ /*Acessando a lista não ordenada*/
-    margin-right: 20px; /*espaçamento a direita*/
+    margin-right: 22px; /*espaçamento a direita*/
     font-size: 25px; /*Tamanho da fonte da linha*/
 }
 
@@ -55,7 +55,7 @@ background-size: cover; /*Preenchimento da imagem*/
 
 #rodape{
     padding: 3rem;
-    background-color: rgb(21, 101, 176);; 
+    background-color: #e80560;
     display: flex;
 }
 
